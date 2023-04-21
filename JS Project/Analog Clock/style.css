@@ -1,0 +1,54 @@
+#clock{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    height: 400px;
+    width: 400px;
+    background: url(Clock.jpg) no-repeat;
+    background-size: 99%;
+    margin: auto;
+}
+
+#hour, #minute, #second, #pivot {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+#pivot {
+    background: rgb(230, 230, 73);
+    height: 3%;
+    width: 3%;
+    top: 49%;
+    left: 48.23%;
+    z-index: 3;
+
+}
+
+#hour {
+    background: red;
+    width: 1.5%;
+    height: 20%;
+    top: 31.08%;
+    left: 48.9%;
+    transform-origin: bottom;
+    /* opacity: 0.2; */
+}
+#minute {
+    background: rgb(3, 5, 143);
+    width: 1%;
+    height: 30%;
+    top: 21%;
+    left: 49.1%;
+    transform-origin: bottom;
+    /* opacity: 0.3; */
+    z-index: 1;
+}
+#second {
+    width: 0.6%;
+    height: 40%;
+    top: 11%;
+    left: 49.25%;
+    transform-origin: bottom;
+    /* opacity: 0.4; */
+    z-index: 2;
+}
